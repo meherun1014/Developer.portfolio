@@ -1,7 +1,9 @@
-/* *{
+*{
     margin: 0px;
     padding: 0px;
-} */
+    margin-top: 10px;
+    font-family: 'open Sans' sans-serif;
+}
 .m_header{
     display: flex;
     justify-content: space-around;
@@ -36,9 +38,13 @@
     color: white;
     font-weight: 700;
     border-radius: 5px;
-    padding:10px;
+    /* padding:10px; */
     align-items: center;
     text-align: center;
+    gap: 6px;
+    padding: 12px 4px;
+    cursor: pointer;
+    display: inline-flex;
 
 }
 .m_header li a {
@@ -49,16 +55,21 @@ header{
     background-color: #fff8f3;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
+    background-size: 700px, 92px;
+    gap: 6px;
 } 
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    margin-left: 50px;
 }
 .banner img{
     width: 500px;
-    margin-left: 263px;
+    margin-left: 200px;
+    background-position: bottom right;
+    margin-right: 33px;
 }
 .b_title{
     font-size: 60px;
@@ -71,10 +82,10 @@ header{
     font-size: 20ox;
 }
 /* about section css start */
-/* main{
-    max-width: 1100px;
+main{
+    max-width: 1000px;
     margin:auto;
-} */
+}
 
 
 
@@ -85,10 +96,11 @@ header{
     line-height: 0.06;
 }
 .about_description{
-    text-align: center;
-    /* width: 500px; */
+    text-align: center; 
     margin: auto;
     font-size: 20px;
+    line-height: 1.6;
+    padding: 20px;
 }
 .about_container{
     display: flex;
@@ -96,10 +108,11 @@ header{
     margin-top: 26px;
 } 
 .about{
-    max-width: 1000px;
-    margin: auto;
+    margin-top: 100px;
     background-color: #fff8f3;
-    padding: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
     
 }
 .about_info{
@@ -115,3 +128,75 @@ header{
     font-size: 45px;
 }
 /* about section css end */
+.about_me{
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+   
+.logo_container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 110px;
+}
+.logo_des{
+    color:#757575;
+    font-weight: 500;
+    border:2px #000;
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
+}
+.logo_name{
+    font-size: 20px;
+    color: #000;
+}
+.education_title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.degree_title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.Uni_name{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(170 209 209)
+
+
+}
+.education_section{
+    display: flex;
+}
+.resume_item{
+    width: 500px;
+    margin: 25px;
+}
+.resume_title{
+    margin: auto;
+}
+.footer_colum{
+    width: 50%;
+
+}
+.download{
+    text-align: center;
+}
+footer{
+    background-color: #fff8f3;
+    margin: 100px;
+    padding: 130px 200px;
+    display: flex;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+
+    border-radius: 5px;
+    background-color: #fff;
+    width: 100%;
+}
